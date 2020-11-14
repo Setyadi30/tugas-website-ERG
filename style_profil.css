@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    background-color: rgb(28, 21, 123);
+    justify-content: space-around;
+    /*padding: 20px 0;*/
+    color: cornsilk;
+    height: 50px;
+    align-items: center;
+}
+
+nav .logo {
+    font-family: fantasy;
+    letter-spacing: 4px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: rgb(234, 192, 255);
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav ul li a:hover{
+    color: rgb(234, 192, 255);
+}
